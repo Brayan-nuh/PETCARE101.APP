@@ -5,7 +5,9 @@ function Articles(){
             <h2>
                 Articles
             </h2>
-            <p>Read our articles on pet care routines and more</p>
+            <p>Read our articles on pet care routines and more from
+                our website
+            </p>
         </div>
 
     );

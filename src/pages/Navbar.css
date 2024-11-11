@@ -3,12 +3,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFD700;
+    background-color: #008080;
     padding: 1rem;
   }
   
   nav h1 {
-    color:#333333;
+    color:#FFFFFF;
   }
   
   nav ul {
