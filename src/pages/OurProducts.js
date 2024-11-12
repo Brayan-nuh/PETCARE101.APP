@@ -7,7 +7,7 @@ function OurProducts (){
       name: 'Premium Dog Food',
       description: 'Nutritious and delicious dog food for all breeds.',
       price: '$20',
-      image: 'path-to-your-image1.jpg'
+      image: 'pedigree adult.jfif'
 
        },
        {
