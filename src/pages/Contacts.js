@@ -23,10 +23,10 @@ function Contacts(){
   
         <div className="social-media">
           <p>Follow us on social media:</p>
-          <a href="#"target="_blank" className="social-link">Facebook</a>
-          <a href="#" target="_blank"className="social-link">Instagram</a>
-          <a href="#"target="_blank" className="social-link">Twitter</a>
-          <a href="#" target="_blank" className="social-link">Whatsapp</a>
+          <a href="https://www.email.com/ochiengbrayan55@gmail.com"target="_blank" className="social-link">Email us</a>
+          <a href="https://www.instagram.com/briannoah82" target="_blank"className="social-link">Instagram</a>
+          <a href="https://www.twitter.com/@BrayanOchi73795"target="_blank" className="social-link">Twitter</a>
+          <a href="https://wa.me/0701867245" target="_blank" className="social-link">Whatsapp</a>
         </div>
       </div>
     );
