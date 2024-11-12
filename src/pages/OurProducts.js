@@ -7,7 +7,7 @@ function OurProducts (){
       name: 'Premium Dog Food',
       description: 'Nutritious and delicious dog food for all breeds.',
       price: '$20',
-      image: 'pedigree adult.jfif'
+      image: require('../assets/images/pedigree adult.jfif')
 
        },
        {
@@ -15,14 +15,14 @@ function OurProducts (){
       name: 'Cat Scratching Post',
       description: 'Durable scratching post to keep your cat entertained.',
       price: '$15',
-      image: 'path-to-your-image2.jpg'
+      image: require('../assets/images/cat toy.jfif')
        },
        {
         id: 3,
         name: 'Pet Grooming Kit',
         description: 'Complete grooming kit to keep your pets looking their best.',
         price: '$30',
-        image: 'path-to-your-image3.jpg'
+        image: require('../assets/images/pet shampoo.jfif')
        },
 
 
