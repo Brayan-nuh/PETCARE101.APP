@@ -10,22 +10,26 @@ function Articles(){
         <div className="article-card">
           <h2>Understanding Pet Nutrition</h2>
           <p>Learn about the essentials of pet nutrition and how to provide a balanced diet for your furry friends.</p>
-          <a href="#">Read More</a>
+          <a href="https://www.petcare101.com" target="_blank"rel="noopener noreferrer"
+            >Read More</a>
         </div>
         <div className="article-card">
           <h2>Grooming Tips for Your Pets</h2>
           <p>Explore our top grooming tips to keep your pets looking great and feeling comfortable year-round.</p>
-          <a href="#">Read More</a>
+          <a href="https://www.petcare101.com" target="_blank"rel="noopener noreferrer"
+          >Read More</a>
         </div>
         <div className="article-card">
           <h2>Training Basics for New Pet Owners</h2>
           <p>Find effective training techniques to help new pet owners manage behavior and create a loving bond with their pets.</p>
-          <a href="#">Read More</a>
+          <a href="https://www.petcare101.com"target="_blank"rel="noopener noreferrer"
+          >Read More</a>
         </div>
         <div className="article-card">
           <h2>Common Pet Health Issues</h2>
           <p>Understand common health issues in pets and how to recognize early signs for better care.</p>
-          <a href="#">Read More</a>
+          <a href="https://www.petcare101.com" target="_blank"rel="noopener noreferrer"
+          >Read More</a>
         </div>
       </div>
     </div>
