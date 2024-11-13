@@ -7,7 +7,7 @@ function Contacts(){
         <p>We'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out.</p>
   
         <div className="contact-form">
-          <form>
+          <form action="contact.php" method="POST">
             <label htmlFor="name">Name</label>
             <input type="text" id="name" placeholder="Your Name" required />
   
