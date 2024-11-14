@@ -87,8 +87,7 @@ function Contacts() {
         <a href="https://wa.me/0701867245 "  target="_blank" className="social-link">whatsapp</a>
       </div>
     </div>
-    
-   
+
 
     );
 }
