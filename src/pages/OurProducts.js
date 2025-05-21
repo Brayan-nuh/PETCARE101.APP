@@ -6,7 +6,7 @@ function OurProducts (){
         id: 1,
       name: 'Premium Dog Food',
       description: 'Nutritious and delicious dog food for all breeds.',
-      price: '$20',
+      price: '200',
       image: require('../assets/images/pedigree adult.jfif')
 
        },
@@ -14,19 +14,44 @@ function OurProducts (){
         id: 2,
       name: 'Cat Scratching Post',
       description: 'Durable scratching post to keep your cat entertained.',
-      price: '$15',
+      price: '50',
       image: require('../assets/images/cat toy.jfif')
        },
        {
         id: 3,
         name: 'Pet Grooming Kit',
         description: 'Complete grooming kit to keep your pets looking their best.',
-        price: '$30',
+        price: '600',
         image: require('../assets/images/pet shampoo.jfif')
        },
 
 
     ];
+    const handleBuy = async (amount) => {
+  const phone = prompt("Enter your MPesa number (format: 2547XXXXXXXX)");
+
+  if (!phone || phone.length < 10) {
+    alert("Invalid phone number.");
+    return;
+  }
+
+  try {
+    const response = await fetch('http://localhost:5000/api/stkpush', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ phone, amount })
+    });
+
+    const data = await response.json();
+    console.log('MPesa Response:', data);
+    alert("Payment request sent. Check your phone to complete the payment.");
+  } catch (error) {
+    console.error('Error sending payment:', error);
+    alert("Payment failed. Try again.");
+  }
+};
+
+
     return (
         <div className="products">
       <h1>Our Products</h1>
@@ -44,7 +69,8 @@ function OurProducts (){
             <h2>{product.name}</h2>
             <p>{product.description}</p>
             <p className="price">{product.price}</p>
-            <button className="buy-button">Buy Now</button>
+            <button className="buy-button" onClick={() => handleBuy(product.price)}>Buy Now</button>
+
           </div>
         ))}
       </div>
