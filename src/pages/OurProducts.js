@@ -32,7 +32,7 @@ function OurProducts (){
       <h1>Our Products</h1>
       <p>Discover our range of pet products, carefully selected for your furry friends. Shop now and give them the best!</p>
        
-        {/* Link to external website */}
+        
       <a href="https://petcare101.com" target="_blank" rel="noopener noreferrer">
         <button className="shop-now-button">Visit Petcare 101</button>
       </a>
